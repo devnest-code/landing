@@ -60,7 +60,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     },
     robots: { index: true, follow: true },
-    verification: { google: 'hyLciLL6OpBKGtgGcSXS-211NtuvyfT2E27Vg5p-qH0' },
   }
 }
 

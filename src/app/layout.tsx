@@ -1,6 +1,11 @@
 import type { ReactNode } from 'react'
+import type { Metadata } from 'next'
 import { Barlow_Condensed, DM_Sans } from 'next/font/google'
 import './globals.css'
+
+export const metadata: Metadata = {
+  verification: { google: 'hyLciLL6OpBKGtgGcSXS-211NtuvyfT2E27Vg5p-qH0' },
+}
 
 const barlow = Barlow_Condensed({
   subsets: ['latin'],
