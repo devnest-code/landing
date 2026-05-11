@@ -24,6 +24,9 @@ const dmSans = DM_Sans({
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html suppressHydrationWarning data-scroll-behavior="smooth" className={`${barlow.variable} ${dmSans.variable}`}>
+      <head>
+        <meta name="google-site-verification" content="hyLciLL6OpBKGtgGcSXS-211NtuvyfT2E27Vg5p-qH0" />
+      </head>
       <body suppressHydrationWarning>
         {children}
       </body>
