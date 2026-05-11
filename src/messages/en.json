@@ -249,48 +249,6 @@
       }
     ]
   },
-        "metrics": [
-          { "value": "6", "label": "weeks to MVP" },
-          { "value": "3x", "label": "operational speed" },
-          { "value": "$0", "label": "manual errors" }
-        ],
-        "quote": "The DevNest team understood our business from day one. Delivered on time, on budget, and the product exceeded every expectation we had."
-      },
-      {
-        "tag": "Outsourcing · Fintech · LatAm",
-        "title": "5 engineers in 2 weeks — from idea to Series A in 14 months",
-        "desc": "A fintech startup needed to build their core product fast without expensive local hiring. We integrated 5 senior engineers who became a fundamental part of the team until their investment round.",
-        "metrics": [
-          { "value": "14m", "label": "idea to Series A" },
-          { "value": "5x", "label": "delivery speed" },
-          { "value": "40%", "label": "less than local hiring" }
-        ],
-        "quote": "They are not vendors, they are part of our team. DevNest's code quality and proactivity was key to closing our investment round."
-      },
-      {
-        "tag": "Mobile App · Europe",
-        "title": "iOS and Android e-commerce app — 35% of digital sales in 3 months",
-        "desc": "A European retailer wanted their first native app with catalog, cart, payments and push notifications. We used Flutter to deliver native quality on both platforms in record time.",
-        "metrics": [
-          { "value": "10", "label": "development weeks" },
-          { "value": "35%", "label": "of digital sales" },
-          { "value": "4.8★", "label": "App Store rating" }
-        ],
-        "quote": "We needed speed without sacrificing quality. DevNest delivered both and the remote collaboration was impeccable from the first week."
-      },
-      {
-        "tag": "Automation · Legal",
-        "title": "200 hours per month returned to the team — ROI in 3 months",
-        "desc": "A law firm operating in 4 countries generated documents and reports manually. We built an automation system that integrates their existing tools and eliminates repetitive work.",
-        "metrics": [
-          { "value": "200h", "label": "saved per month" },
-          { "value": "3 months", "label": "to positive ROI" },
-          { "value": "0", "label": "reporting errors" }
-        ],
-        "quote": "What used to take days to prepare now generates in minutes. The best technology investment we have ever made as a firm."
-      }
-    ]
-  },
   "testimonials": {
     "eyebrow": "Testimonials",
     "title1": "Built with trust.",
