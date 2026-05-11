@@ -1,26 +1,271 @@
 @import "tailwindcss";
 
+@theme {
+  --color-gold: #F5A623;
+  --color-gold2: #c47e10;
+  --color-dark: #070707;
+  --color-dark2: #0d0d0d;
+  --color-darkc: #0f0f0f;
+  --color-cream: #F4EFE6;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #070707;
+  --bg2: #0d0d0d;
+  --bgc: #0f0f0f;
+  --gold: #F5A623;
+  --gold2: #c47e10;
+  --goldg: rgba(245, 166, 35, 0.12);
+  --goldb: rgba(245, 166, 35, 0.22);
+  --w: #F4EFE6;
+  --wm: rgba(244, 239, 230, 0.44);
+  --bd: rgba(244, 239, 230, 0.07);
+  --bdg: rgba(245, 166, 35, 0.18);
+  --fd: var(--font-barlow, "Barlow Condensed", sans-serif);
+  --fb: var(--font-dm, "DM Sans", sans-serif);
+  --r: 10px;
+  --rs: 6px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* scroll-behavior moved to html data attribute in layout.tsx */
+
+body {
+  background: var(--bg);
+  color: var(--w);
+  font-family: var(--fb);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: var(--fd);
+}
+
+/* ── Animations ── */
+@keyframes spin-ring {
+  to {
+    transform: rotate(360deg);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes float-logo {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.3;
+    transform: scale(1.4);
+  }
+}
+
+/* ── Hero rings ── */
+.hring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid var(--bdg);
+  animation: spin-ring linear infinite;
+}
+.hring:nth-child(1) {
+  width: 250px;
+  height: 250px;
+  animation-duration: 22s;
+  opacity: 0.4;
+}
+.hring:nth-child(2) {
+  width: 316px;
+  height: 316px;
+  border-style: dashed;
+  animation-duration: 38s;
+  animation-direction: reverse;
+  opacity: 0.18;
+}
+.hring:nth-child(3) {
+  width: 380px;
+  height: 380px;
+  animation-duration: 56s;
+  opacity: 0.08;
+}
+
+.hlogo-float {
+  animation: float-logo 4s ease-in-out infinite;
+}
+
+/* ── Badge pulse dot ── */
+.badge-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--gold);
+  animation: pulse-dot 2.2s infinite;
+  flex-shrink: 0;
+}
+
+/* ── Service card bottom border on hover ── */
+.sv-card {
+  position: relative;
+  transition: background 0.22s;
+}
+.sv-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 34px;
+  right: 34px;
+  height: 2px;
+  background: transparent;
+  transition: background 0.22s;
+}
+.sv-card:hover::after {
+  background: var(--gold);
+}
+
+/* ── Section eyebrow label ── */
+.eyebrow-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--gold);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.eyebrow-label::before {
+  content: '';
+  width: 22px;
+  height: 1px;
+  background: var(--gold);
+  flex-shrink: 0;
+}
+
+/* ── Form inputs base ── */
+.form-input,
+.form-select,
+.form-textarea {
+  width: 100%;
+  padding: 11px 14px;
+  background: var(--bg2);
+  border: 1px solid var(--bd);
+  border-radius: var(--rs);
+  color: var(--w);
+  font-family: var(--fb);
+  font-size: 14px;
+  font-weight: 300;
+  outline: none;
+  transition: border-color 0.18s;
+  -webkit-appearance: none;
+}
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+  border-color: var(--gold2);
+}
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: rgba(244, 239, 230, 0.18);
+}
+.form-textarea {
+  resize: vertical;
+  min-height: 92px;
+}
+.form-select {
+  cursor: pointer;
+}
+.form-select option {
+  background: var(--bg2);
+  color: var(--w);
+}
+
+/* ── Animated gradient text ── */
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.text-gradient-animate {
+  background: linear-gradient(
+    270deg,
+    #FFD166,
+    #F5A623,
+    #C47E10,
+    #F5A623,
+    #FFD166
+  );
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-shift 4s ease infinite;
+}
+
+/* ── Cursor glow ── */
+@keyframes cursor-glow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* ── Clients marquee ── */
+@keyframes marquee-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-left 28s linear infinite;
+}
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+.marquee-outer {
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+}
+
+/* ── TiltCard shimmer on hover ── */
+.tilt-card-inner {
+  position: relative;
+  overflow: hidden;
+}
+.tilt-card-inner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(245,166,35,0.06) 0%,
+    transparent 50%,
+    rgba(245,166,35,0.04) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  z-index: 1;
+}
+.tilt-card-inner:hover::before {
+  opacity: 1;
 }

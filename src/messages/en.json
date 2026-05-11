@@ -1,0 +1,457 @@
+{
+  "nav": {
+    "services": "Services",
+    "process": "Process",
+    "stack": "Stack",
+    "cases": "Cases",
+    "clients": "Clients",
+    "cta": "Let's Talk →"
+  },
+  "hero": {
+    "badge": "Nearshore · Global · 100% Remote",
+    "line1": "We Build",
+    "line2": "the software",
+    "line3": "your business",
+    "line4": "needs.",
+    "desc": "We're not the oldest software company. We're the one building with tomorrow's stack, today. No 20-year-old processes, no hidden juniors, no lock-in. Your product in production — in weeks, not quarters.",
+    "cta_primary": "Start your project →",
+    "cta_secondary": "See case studies"
+  },
+  "trust": {
+    "label": "Trusted by",
+    "pill1": "Startups",
+    "pill2": "Scaleups",
+    "pill3": "Tech Agencies",
+    "pill4": "Mid-Market Cos.",
+    "pill5": "Enterprises",
+    "stat1_value": "50",
+    "stat1_suffix": "+",
+    "stat1_label": "Projects",
+    "stat2_value": "30",
+    "stat2_suffix": "+",
+    "stat2_label": "Clients",
+    "stat3_value": "8",
+    "stat3_suffix": "+",
+    "stat3_label": "Countries",
+    "stat4_value": "98",
+    "stat4_suffix": "%",
+    "stat4_label": "% Satisfaction"
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title1": "Three ways to",
+    "title2": "build with you",
+    "cta": "Talk to our team →",
+    "outsourcing": {
+      "title": "Tech Talent Outsourcing",
+      "desc": "Scale your team with proven senior engineers. No endless recruiting, no headaches. Your project, our talent — working as a natural extension of your company from day one.",
+      "items": [
+        "Senior Full-Stack Developers",
+        "Product UI/UX Designers",
+        "QA Engineers and Automation",
+        "DevOps, Cloud and SRE",
+        "Tech Leads and Software Architects"
+      ]
+    },
+    "custom": {
+      "title": "100% Custom Software",
+      "desc": "From idea to production-ready product. We build web platforms, mobile apps, internal systems, APIs and SaaS products designed to solve your business's unique challenges precisely.",
+      "items": [
+        "Web platforms and SaaS applications",
+        "iOS and Android mobile apps",
+        "API integrations and architecture",
+        "Internal process automation",
+        "MVPs ready in 6 weeks"
+      ]
+    },
+    "products": {
+      "title": "Proprietary Digital Products",
+      "desc": "We are builders, not just vendors. We develop our own products and open the door to co-create, co-invest or white-label technology solutions with companies that want to grow differently.",
+      "items": [
+        "SaaS product co-development",
+        "Technology joint ventures",
+        "White-label solutions",
+        "Software licensing",
+        "Project revenue sharing"
+      ]
+    }
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title1": "From idea to product",
+    "title2": "without surprises.",
+    "steps": [
+      {
+        "title": "Discovery",
+        "desc": "We analyze your business, users and real goals. We define the exact scope, ideal stack and an honest roadmap with clear timelines and costs from the start."
+      },
+      {
+        "title": "Design and UX",
+        "desc": "We prototype the full experience before writing code. We validate with you at each iteration — eliminating rework and protecting your budget."
+      },
+      {
+        "title": "Agile Development",
+        "desc": "2-week sprints, Friday demos, clean and well-tested code. Full visibility of progress and total product control at all times."
+      },
+      {
+        "title": "Delivery and Support",
+        "desc": "Production deployment, full technical documentation, knowledge transfer and post-launch support included. We deliver so you can scale."
+      }
+    ]
+  },
+  "stack": {
+    "eyebrow": "Technology stack",
+    "title1": "Modern technology.",
+    "title2": "Real results."
+  },
+  "why": {
+    "eyebrow": "Why DevNest",
+    "title1": "24 years of experience",
+    "title2": "or 1 year of future.",
+    "subtitle": "Traditional companies accumulate years. We accumulate results with the stack your business needs today.",
+    "cards": [
+      {
+        "title": "AI built into the architecture",
+        "desc": "We don't bolt AI onto legacy systems. We design it into the product from day one. LLMs, intelligent automation and data as real competitive advantage — not a marketing feature."
+      },
+      {
+        "title": "MVP in 6 weeks, not 6 months",
+        "desc": "While other companies are still in planning meetings, we already have your first sprint in production. Startup speed with enterprise-grade quality."
+      },
+      {
+        "title": "Senior engineers, direct access",
+        "desc": "When you talk to DevNest, you talk to the people writing the code. No account managers, no hidden juniors, no approval layers. More speed, less noise, better decisions."
+      },
+      {
+        "title": "2025 stack, zero technical debt",
+        "desc": "Next.js, Go, microservices, edge computing, Kubernetes. We build with technology that scales — not what worked 20 years ago. Your product inherits nobody else's problems."
+      },
+      {
+        "title": "Nearshore real — global standards",
+        "desc": "Timezone compatible with USA, Europe and LatAm. English and Spanish. Silicon Valley-level processes with Latin American talent and costs. The best of both worlds."
+      },
+      {
+        "title": "No lock-in, ever",
+        "desc": "Your code, your infrastructure, your IP — from the first commit. Full documentation and knowledge transfer included. You can switch providers tomorrow. We bet you won't want to."
+      }
+    ]
+  },
+  "cases": {
+    "eyebrow": "Real projects",
+    "title1": "What we have",
+    "title2": "built.",
+    "web_label": "View site →",
+    "desktop_label": "Desktop app",
+    "items": [
+      {
+        "tag": "LegalTech · SaaS · E-invoicing",
+        "type": "web",
+        "url": "https://www.smartlawsl.com/",
+        "title": "SmartLaw SL — Prepaid legal subscription with electronic invoicing",
+        "desc": "Full SaaS platform for prepaid legal services. Subscription management, client dashboard, electronic invoicing integration and automated payment flows.",
+        "metrics": [
+          { "value": "SaaS", "label": "own platform" },
+          { "value": "E-inv", "label": "electronic invoicing" },
+          { "value": "100%", "label": "online" }
+        ]
+      },
+      {
+        "tag": "E-commerce · Retail · Invoicing",
+        "type": "web",
+        "url": "https://outletal50.com/",
+        "title": "Outletal50 — E-commerce with electronic invoicing for Boutique Exótica",
+        "desc": "Full online store with catalog, cart, payment gateway and integrated electronic invoicing. Sell and invoice from a single platform.",
+        "metrics": [
+          { "value": "E-com", "label": "online store" },
+          { "value": "E-inv", "label": "integrated invoicing" },
+          { "value": "1", "label": "unified platform" }
+        ]
+      },
+      {
+        "tag": "Inventory · Invoicing · Retail",
+        "type": "web",
+        "url": "https://inventari-ando.vercel.app",
+        "title": "La Copa Feliz — Online inventory & electronic invoicing",
+        "desc": "Web-based inventory management system with real-time electronic invoicing for a liquor store. Stock control, sales, reports and invoice generation from any device.",
+        "metrics": [
+          { "value": "Web", "label": "access from anywhere" },
+          { "value": "E-inv", "label": "real-time invoicing" },
+          { "value": "0", "label": "paper" }
+        ]
+      },
+      {
+        "tag": "Landing · Industry · Manabí",
+        "type": "web",
+        "url": "https://www.industriasmanabi.com/",
+        "title": "Industrias Manabí — Dynamic and self-managed digital presence",
+        "desc": "Corporate landing page with its own admin panel. The Industrias Manabí team updates content, products and news without depending on a developer.",
+        "metrics": [
+          { "value": "CMS", "label": "self-managed" },
+          { "value": "SEO", "label": "optimized" },
+          { "value": "0", "label": "tech dependency" }
+        ]
+      },
+      {
+        "tag": "Landing · Print Shop · Ecuador",
+        "type": "web",
+        "url": "https://graficasliz.com/",
+        "title": "Gráficas Liz — Digital catalog with content management",
+        "desc": "Dynamic website for a print shop with product catalog, work gallery and quote form. Fully manageable by the internal team.",
+        "metrics": [
+          { "value": "CMS", "label": "self-managed" },
+          { "value": "Mobile", "label": "100% responsive" },
+          { "value": "Fast", "label": "optimized loading" }
+        ]
+      },
+      {
+        "tag": "Inventory · Offline-First · Retail",
+        "type": "desktop",
+        "title": "Systems EC — Inventory management for large stores without internet",
+        "desc": "Inventory app for store chains that operates 100% offline. Data is stored locally and automatically syncs with the central system as soon as a connection is available. Zero data loss, zero operational interruptions.",
+        "metrics": [
+          { "value": "100%", "label": "works without wifi" },
+          { "value": "Auto", "label": "sync" },
+          { "value": "0", "label": "data loss" }
+        ]
+      },
+      {
+        "tag": "Desktop App · Education · Chone",
+        "type": "desktop",
+        "title": "Escuela Ibarra — Student enrollment & grade control",
+        "desc": "Desktop system for comprehensive school management: enrollments, grade records, academic report generation and attendance control for Escuela Ibarra in Chone.",
+        "metrics": [
+          { "value": "Desktop", "label": "native app" },
+          { "value": "100%", "label": "digitized processes" },
+          { "value": "0", "label": "paper" }
+        ]
+      },
+      {
+        "tag": "Desktop App · Health · Red Cross",
+        "type": "desktop",
+        "title": "Cruz Roja Chone — Blood typing & patient records",
+        "desc": "Desktop system for the Red Cross Chone chapter. Donor management, blood typing, patient history and reports for the blood bank.",
+        "metrics": [
+          { "value": "Desktop", "label": "native app" },
+          { "value": "Health", "label": "critical sector" },
+          { "value": "100%", "label": "traceability" }
+        ]
+      },
+      {
+        "tag": "Desktop App · Transport · Portovial",
+        "type": "desktop",
+        "title": "Portovial — Vehicle inspection & RTV registration",
+        "desc": "Desktop system for vehicle technical inspection (RTV) management. Registration control, species issuance, vehicle database and certificate generation.",
+        "metrics": [
+          { "value": "Desktop", "label": "native app" },
+          { "value": "RTV", "label": "technical inspection" },
+          { "value": "Auto", "label": "certificate generation" }
+        ]
+      }
+    ]
+  },
+        "metrics": [
+          { "value": "6", "label": "weeks to MVP" },
+          { "value": "3x", "label": "operational speed" },
+          { "value": "$0", "label": "manual errors" }
+        ],
+        "quote": "The DevNest team understood our business from day one. Delivered on time, on budget, and the product exceeded every expectation we had."
+      },
+      {
+        "tag": "Outsourcing · Fintech · LatAm",
+        "title": "5 engineers in 2 weeks — from idea to Series A in 14 months",
+        "desc": "A fintech startup needed to build their core product fast without expensive local hiring. We integrated 5 senior engineers who became a fundamental part of the team until their investment round.",
+        "metrics": [
+          { "value": "14m", "label": "idea to Series A" },
+          { "value": "5x", "label": "delivery speed" },
+          { "value": "40%", "label": "less than local hiring" }
+        ],
+        "quote": "They are not vendors, they are part of our team. DevNest's code quality and proactivity was key to closing our investment round."
+      },
+      {
+        "tag": "Mobile App · Europe",
+        "title": "iOS and Android e-commerce app — 35% of digital sales in 3 months",
+        "desc": "A European retailer wanted their first native app with catalog, cart, payments and push notifications. We used Flutter to deliver native quality on both platforms in record time.",
+        "metrics": [
+          { "value": "10", "label": "development weeks" },
+          { "value": "35%", "label": "of digital sales" },
+          { "value": "4.8★", "label": "App Store rating" }
+        ],
+        "quote": "We needed speed without sacrificing quality. DevNest delivered both and the remote collaboration was impeccable from the first week."
+      },
+      {
+        "tag": "Automation · Legal",
+        "title": "200 hours per month returned to the team — ROI in 3 months",
+        "desc": "A law firm operating in 4 countries generated documents and reports manually. We built an automation system that integrates their existing tools and eliminates repetitive work.",
+        "metrics": [
+          { "value": "200h", "label": "saved per month" },
+          { "value": "3 months", "label": "to positive ROI" },
+          { "value": "0", "label": "reporting errors" }
+        ],
+        "quote": "What used to take days to prepare now generates in minutes. The best technology investment we have ever made as a firm."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title1": "Built with trust.",
+    "title2": "Validated by results.",
+    "items": [
+      {
+        "quote": "DevNest is the tech partner every company wishes they had. They ask the right questions before writing a single line of code. They saved us months of rework because they understood the business problem, not just the technical one.",
+        "name": "Marcus R.",
+        "role": "CTO · SaaS Startup · United States",
+        "initials": "MR"
+      },
+      {
+        "quote": "I hired DevNest after wasting time with two agencies that promised a lot and delivered little. The difference is enormous: clear communication, quality code and deadlines that are met. I am not looking for another partner.",
+        "name": "Ana S.",
+        "role": "Founder · EdTech Platform · Spain",
+        "initials": "AS"
+      },
+      {
+        "quote": "We had doubts about hiring a remote team. DevNest broke every preconception. Better communication than in-house teams we have had, and code that our internal engineers approved without hesitation.",
+        "name": "David K.",
+        "role": "VP Engineering · E-commerce · United Kingdom",
+        "initials": "DK"
+      }
+    ]
+  },
+  "clients": {
+    "eyebrow": "Trusted by our clients",
+    "title": "Companies already building with DevNest",
+    "items": [
+      { "name": "Pharmagro",          "initials": "PHG",  "sector": "Agroindustry" },
+      { "name": "Boutique Exótica",   "initials": "BE",   "sector": "Retail / Fashion" },
+      { "name": "Banco Manabí",       "initials": "BM",   "sector": "Banking" },
+      { "name": "Smartlaw SA",        "initials": "SL",   "sector": "Legal Tech" },
+      { "name": "Plantain Republic",  "initials": "PR",   "sector": "Food & Beverage" },
+      { "name": "Systems EC",         "initials": "SEC",  "sector": "Tech" },
+      { "name": "TropiMax",           "initials": "TRX",  "sector": "Agroindustry" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Start today",
+    "title1": "Ready to",
+    "title2": "build something",
+    "title3": "extraordinary?",
+    "desc": "Tell us your idea. In less than 24 hours you will hear from our team. The first discovery call is free and with no commitment.",
+    "perks": [
+      "Guaranteed response within 24h",
+      "Free first discovery call (45 min)",
+      "Technical proposal without commitment",
+      "NDA available from first contact",
+      "Support in English and Spanish"
+    ],
+    "form": {
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "projectType": "Project type",
+      "projectTypePlaceholder": "What do you need to build?",
+      "budget": "Estimated budget",
+      "budgetPlaceholder": "Select a range",
+      "message": "Tell us about your project",
+      "messagePlaceholder": "Briefly describe what you want to build, what problem it solves and what stage you're at...",
+      "submit": "Send — we'll reply within 24h →",
+      "sending": "Sending...",
+      "success": "✓ Message sent. We'll be in touch soon.",
+      "error": "Error sending. Please write to us at hello@devnest.io",
+      "projectTypes": {
+        "custom": "Custom system or software",
+        "outsourcing": "Tech team outsourcing",
+        "mobile": "Mobile app (iOS / Android)",
+        "saas": "SaaS Product",
+        "automation": "Process automation",
+        "mvp": "MVP or idea validation",
+        "ecommerce": "E-commerce or marketplace",
+        "ai": "AI / LLM integration",
+        "joint": "Joint venture or co-investment",
+        "other": "Other"
+      },
+      "budgets": {
+        "u5k": "Less than $5,000",
+        "5-15k": "$5,000 – $15,000",
+        "15-50k": "$15,000 – $50,000",
+        "50k+": "More than $50,000",
+        "nd": "I don't know yet"
+      }
+    }
+  },
+  "footer": {
+    "desc": "We build the software your business needs. Outsourcing, custom projects and proprietary products for companies that want to grow without technology limits.",
+    "services_title": "Services",
+    "company_title": "Company",
+    "contact_title": "Contact",
+    "services": ["Talent Outsourcing", "Custom Software", "Mobile Apps", "SaaS Products", "Automation", "AI Integration"],
+    "company": ["Why DevNest", "Case studies", "Testimonials", "Tech blog", "Work with us"],
+    "contact_links": ["Start your project", "hello@devnest.io", "Schedule a call"],
+    "legal": "Privacy · Terms · Built with Ecuadorian ☕ for the world",
+    "copy": "© {year} DevNest. All rights reserved."
+  },
+  "legal": {
+    "privacy_title": "Privacy Policy",
+    "terms_title": "Terms of Use",
+    "close": "Close",
+    "last_updated": "Last updated: 2025",
+    "privacy": [
+      {
+        "heading": "1. Information We Collect",
+        "body": "We collect the following information from users of the Website:\n\n• Cookies: We use cookies to track website usage and improve user experience.\n• Google Analytics and Meta Pixel: We use these tools to collect data about website traffic and user behavior.\n• Newsletter Sign-Up: If you sign up for our newsletter, we collect your full name, email address, and country of residence."
+      },
+      {
+        "heading": "2. How We Use Your Information",
+        "body": "We use the information we collect to:\n\n• Improve the Website and user experience.\n• Send you newsletters and marketing communications (if you have signed up).\n• Analyze website traffic and user behavior."
+      },
+      {
+        "heading": "3. Sharing Your Information",
+        "body": "We do not share your personal information with any third parties, except as required by law."
+      },
+      {
+        "heading": "4. Data Security",
+        "body": "We take reasonable measures to protect your personal information from unauthorized access, use, or disclosure."
+      },
+      {
+        "heading": "5. Your Privacy Rights",
+        "body": "You have the right to access, correct, or delete your personal information. You can also unsubscribe from our newsletter at any time."
+      },
+      {
+        "heading": "6. Governing Law",
+        "body": "This Privacy Policy shall be governed by and construed in accordance with the laws of the Cayman Islands."
+      },
+      {
+        "heading": "7. Changes to the Privacy Policy",
+        "body": "DevNest reserves the right to modify this Privacy Policy at any time. Any changes will be effective immediately upon posting on the Website."
+      }
+    ],
+    "terms": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "body": "By accessing and using this Website, you agree to be bound by these Terms of Use. If you do not agree with any of these terms, you must not use the Website."
+      },
+      {
+        "heading": "2. Use of the Website",
+        "body": "You may use the Website only for lawful purposes and in accordance with these Terms. You are prohibited from using the Website in any way that could damage, disable, or impair the Website or interfere with any other party's use of it."
+      },
+      {
+        "heading": "3. Intellectual Property",
+        "body": "All content on the Website, including text, graphics, logos, and images, is the property of DevNest and is protected by applicable intellectual property laws."
+      },
+      {
+        "heading": "4. Limitation of Liability",
+        "body": "DevNest shall not be liable for any indirect, incidental, special, or consequential damages arising out of or related to your use of or inability to use the Website."
+      },
+      {
+        "heading": "5. Governing Law",
+        "body": "These Terms shall be governed by and construed in accordance with the laws of the Cayman Islands."
+      },
+      {
+        "heading": "6. Changes to Terms",
+        "body": "DevNest reserves the right to modify these Terms at any time. Your continued use of the Website following any modifications constitutes your acceptance of the new terms."
+      }
+    ]
+  },
+  "meta": {
+    "title": "DevNest — Custom Software Development · Outsourcing · Own Products",
+    "description": "DevNest builds world-class software tailored to your business. Custom development, dedicated tech teams, and proprietary products. We work with startups, scaleups, and enterprises worldwide."
+  }
+}
