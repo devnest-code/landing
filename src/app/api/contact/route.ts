@@ -1,9 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { resend } from '@/lib/resend'
+import { Resend } from 'resend'
 import { contactSchema } from '@/lib/validations'
 
 export async function POST(req: NextRequest) {
   try {
+    const resend = new Resend(process.env.RESEND_API_KEY)
     const body = await req.json()
     const data = contactSchema.parse(body)
 
