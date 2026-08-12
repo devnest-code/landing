@@ -4,10 +4,9 @@ import { useTranslations } from 'next-intl'
 import { LegalModal } from '@/components/ui/LegalModal'
 
 const socials = [
-  { label: 'LinkedIn', short: 'in', href: '#' },
-  { label: 'GitHub', short: 'gh', href: '#' },
-  { label: 'Twitter / X', short: 'x', href: '#' },
-  { label: 'Instagram', short: 'ig', href: '#' },
+  { label: 'Facebook', short: 'fb', href: 'https://www.facebook.com/devnestcode/' },
+  { label: 'GitHub', short: 'gh', href: 'https://github.com/devnest-code' },
+  { label: 'Instagram', short: 'ig', href: 'https://www.instagram.com/devnestcode/' },
 ]
 
 export default function Footer() {
