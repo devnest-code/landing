@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html suppressHydrationWarning data-scroll-behavior="smooth" className={`${barlow.variable} ${dmSans.variable}`}>
       <head>
-        <meta name="google-site-verification" content="hyLciLL6OpBKGtgGcSXS-211NtuvyfT2E27Vg5p-qH0" />
+        <meta name="google-site-verification" content="jqJVg-wRfRYt7oKOOKJr7wQ3ZmcX4fbW_rf30goGgPY" />
       </head>
       <body suppressHydrationWarning>
         {children}
