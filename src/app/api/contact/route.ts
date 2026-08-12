@@ -48,7 +48,7 @@ export async function POST(req: NextRequest) {
       replyTo: data.email,
       subject: `Nueva solicitud: ${projectTypeLabels[data.projectType]} — ${data.company || data.name}`,
       html: `
-        <h2>Nueva solicitud desde devnest.io</h2>
+        <h2>Nueva solicitud desde devnestcode</h2>
         <table cellpadding="6">
           <tr><td><strong>Nombre:</strong></td><td>${escapeHtml(data.name)}</td></tr>
           <tr><td><strong>Empresa:</strong></td><td>${escapeHtml(data.company || '—')}</td></tr>
