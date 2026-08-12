@@ -2,7 +2,9 @@ import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
 import { contactSchema } from '@/lib/validations'
 
-const contactEmail = process.env.CONTACT_EMAIL || 'devnest.code@gmail.com'
+const leadToEmail = process.env.LEAD_TO_EMAIL || 'devnest.code@gmail.com'
+const resendFromEmail = process.env.RESEND_FROM_EMAIL
+const leadFromEmail = resendFromEmail || 'DevNest <onboarding@resend.dev>'
 
 const projectTypeLabels = {
   custom: 'Software a medida',
@@ -40,9 +42,9 @@ export async function POST(req: NextRequest) {
     const body = await req.json()
     const data = contactSchema.parse(body)
 
-    await resend.emails.send({
-      from: 'Contacto DevNest <noreply@devnest.io>',
-      to: [contactEmail],
+    const { error: notificationError } = await resend.emails.send({
+      from: leadFromEmail,
+      to: [leadToEmail],
       replyTo: data.email,
       subject: `Nueva solicitud: ${projectTypeLabels[data.projectType]} — ${data.company || data.name}`,
       html: `
@@ -58,16 +60,26 @@ export async function POST(req: NextRequest) {
       `,
     })
 
-    await resend.emails.send({
-      from: 'DevNest <hello@devnest.io>',
-      to: [data.email],
-      subject: 'Recibimos tu mensaje — DevNest',
-      html: `
-        <p>Hola ${escapeHtml(data.name)},</p>
-        <p>Gracias por comunicarte con DevNest. Recibimos tu mensaje y te responderemos en un plazo máximo de 24 horas.</p>
-        <p>— El equipo de DevNest</p>
-      `,
-    })
+    if (notificationError) {
+      throw new Error(`No se pudo enviar la solicitud: ${notificationError.message}`)
+    }
+
+    if (resendFromEmail) {
+      const { error: confirmationError } = await resend.emails.send({
+        from: resendFromEmail,
+        to: [data.email],
+        subject: 'Recibimos tu mensaje — DevNest',
+        html: `
+          <p>Hola ${escapeHtml(data.name)},</p>
+          <p>Gracias por comunicarte con DevNest. Recibimos tu mensaje y te responderemos en un plazo máximo de 24 horas.</p>
+          <p>— El equipo de DevNest</p>
+        `,
+      })
+
+      if (confirmationError) {
+        console.error('No se pudo enviar la confirmación al cliente:', confirmationError)
+      }
+    }
 
     return NextResponse.json({ success: true })
   } catch (error) {
