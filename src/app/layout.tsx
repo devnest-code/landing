@@ -2,6 +2,7 @@ import type { ReactNode } from 'react'
 import type { Metadata } from 'next'
 import { Barlow_Condensed, DM_Sans } from 'next/font/google'
 import Script from 'next/script'
+import { CONSENT_DEFAULT_SCRIPT } from '@/lib/consent'
 import './globals.css'
 
 const GA_ID = 'G-CS8F96PDJW'
@@ -41,6 +42,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             style={{ display: 'none', visibility: 'hidden' }}
           />
         </noscript>
+        {/* Consent Mode v2 defaults — must run before GTM and gtag.js */}
+        <Script id="consent-default" strategy="beforeInteractive">
+          {CONSENT_DEFAULT_SCRIPT}
+        </Script>
         {children}
         {/* Google Tag Manager */}
         <Script id="google-tag-manager" strategy="afterInteractive">

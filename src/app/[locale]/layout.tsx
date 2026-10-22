@@ -8,6 +8,7 @@ import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
 import { ParticleCanvas } from '@/components/ui/ParticleCanvas'
 import { ScrollProgress } from '@/components/ui/ScrollProgress'
+import { CookieBanner } from '@/components/ui/CookieBanner'
 
 interface Props {
   children: ReactNode
@@ -84,6 +85,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <Navbar />
       <main>{children}</main>
       <Footer />
+      <CookieBanner />
     </NextIntlClientProvider>
   )
 }

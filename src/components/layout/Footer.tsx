@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { LegalModal } from '@/components/ui/LegalModal'
+import { openConsentSettings } from '@/lib/consent'
 
 const socials = [
   { label: 'Facebook', short: 'fb', href: 'https://www.facebook.com/devnestcode/' },
@@ -11,6 +12,7 @@ const socials = [
 
 export default function Footer() {
   const t = useTranslations('footer')
+  const tc = useTranslations('consent')
   const [modal, setModal] = useState<'privacy' | 'terms' | null>(null)
 
   const services: string[] = t.raw('services') as string[]
@@ -184,6 +186,16 @@ export default function Footer() {
               onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(244,239,230,0.22)')}
             >
               Términos
+            </button>
+            <span>·</span>
+            <button
+              onClick={openConsentSettings}
+              className="underline-offset-2 hover:underline cursor-pointer bg-transparent border-none p-0 text-[12px] transition-colors duration-200"
+              style={{ color: 'rgba(244,239,230,0.22)' }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--wm)')}
+              onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(244,239,230,0.22)')}
+            >
+              {tc('settings')}
             </button>
             <span>·</span>
             {t('legal').replace('Privacidad · Términos · ', '').replace('Privacy · Terms · ', '').split('☕').map((part, i) =>

@@ -408,6 +408,14 @@
       }
     ]
   },
+  "consent": {
+    "title": "Your privacy",
+    "text": "We use analytics cookies to understand how the site is used and improve it. You can accept or reject them, and change your choice anytime from the footer.",
+    "privacy": "Privacy policy",
+    "accept": "Accept",
+    "reject": "Reject",
+    "settings": "Cookies"
+  },
   "meta": {
     "title": "DevNest — Custom Software Development · Outsourcing · Own Products",
     "description": "DevNest builds world-class software tailored to your business. Custom development, dedicated tech teams, and proprietary products. We work with startups, scaleups, and enterprises worldwide."

@@ -408,6 +408,14 @@
       }
     ]
   },
+  "consent": {
+    "title": "Tu privacidad",
+    "text": "Usamos cookies de analítica para entender cómo se usa el sitio y mejorarlo. Puedes aceptarlas o rechazarlas, y cambiar tu elección cuando quieras desde el pie de página.",
+    "privacy": "Política de privacidad",
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "settings": "Cookies"
+  },
   "meta": {
     "title": "DevNest — Software a Medida · Outsourcing · Productos Propios",
     "description": "DevNest construye software de clase mundial a medida de tu negocio. Desarrollo personalizado, equipos dedicados y productos propios. Trabajamos con startups, scaleups y empresas en todo el mundo."
