@@ -27,6 +27,12 @@ const budgetLabels = {
   nd: 'Por definir',
 } as const
 
+const sourceLabels: Record<string, string> = {
+  home: 'Página principal',
+  usa: 'Landing EE. UU.',
+  europe: 'Landing Europa',
+}
+
 function escapeHtml(value: string) {
   return value
     .replaceAll('&', '&amp;')
@@ -55,6 +61,7 @@ export async function POST(req: NextRequest) {
           <tr><td><strong>Correo electrónico:</strong></td><td>${escapeHtml(data.email)}</td></tr>
           <tr><td><strong>Tipo de proyecto:</strong></td><td>${projectTypeLabels[data.projectType]}</td></tr>
           <tr><td><strong>Presupuesto:</strong></td><td>${budgetLabels[data.budget]}</td></tr>
+          <tr><td><strong>Origen:</strong></td><td>${escapeHtml(sourceLabels[data.source ?? ''] ?? data.source ?? '—')}</td></tr>
           <tr><td><strong>Mensaje:</strong></td><td>${escapeHtml(data.message).replaceAll('\n', '<br>')}</td></tr>
         </table>
       `,

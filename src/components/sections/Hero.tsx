@@ -11,8 +11,8 @@ const fade = (delay = 0) => ({
   transition: { duration: 0.65, delay, ease },
 })
 
-export default function Hero() {
-  const t = useTranslations('hero')
+export default function Hero({ ns = 'hero' }: { ns?: string }) {
+  const t = useTranslations(ns)
 
   return (
     <section

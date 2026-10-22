@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useTranslations } from 'next-intl'
+import { usePathname } from '@/i18n/navigation'
 import { contactSchema, type ContactFormData } from '@/lib/validations'
 import { RevealWrapper } from '@/components/ui/RevealWrapper'
 
@@ -12,6 +13,8 @@ export default function Contact() {
   const t = useTranslations('contact')
   const ft = useTranslations('contact.form')
   const [status, setStatus] = useState<Status>('idle')
+  // '/usa' -> 'usa', '/' -> 'home': tells which landing page the lead came from.
+  const source = usePathname().replace(/^\//, '') || 'home'
 
   const perks: string[] = t.raw('perks') as string[]
 
@@ -30,7 +33,7 @@ export default function Contact() {
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
+        body: JSON.stringify({ ...data, source }),
       })
       if (res.ok) {
         setStatus('success')

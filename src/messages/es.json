@@ -313,7 +313,7 @@
       "submit": "Enviar — te respondemos en 24h →",
       "sending": "Enviando...",
       "success": "✓ Mensaje enviado. Te contactamos pronto.",
-      "error": "Error al enviar. Por favor escríbenos a hello@devnest.io",
+      "error": "Error al enviar. Por favor escríbenos a devnest.code@gmail.com",
       "projectTypes": {
         "custom": "Sistema o software a medida",
         "outsourcing": "Outsourcing de equipo tech",
@@ -342,7 +342,7 @@
     "contact_title": "Contacto",
     "services": ["Outsourcing de Talento", "Software a Medida", "Apps Móviles", "Productos SaaS", "Automatización", "Integración de IA"],
     "company": ["Por qué DevNest", "Casos de éxito", "Testimonios", "Blog técnico", "Trabaja con nosotros"],
-    "contact_links": ["Inicia tu proyecto", "hello@devnest.io", "Agenda una llamada"],
+    "contact_links": ["Inicia tu proyecto", "devnest.code@gmail.com", "Agenda una llamada"],
     "legal": "Privacidad · Términos · Hecho con ☕ ecuatoriano para el mundo",
     "copy": "© {year} DevNest. Todos los derechos reservados."
   },
@@ -407,6 +407,102 @@
         "body": "DevNest se reserva el derecho de modificar estos Términos en cualquier momento. El uso continuado del Sitio Web tras cualquier modificación constituye la aceptación de los nuevos términos."
       }
     ]
+  },
+  "usa": {
+    "meta": {
+      "title": "DevNest — Desarrollo de software nearshore para empresas de EE. UU.",
+      "description": "Ingenieros senior en Ecuador, en el mismo huso horario que la costa este de EE. UU. Software a medida, equipos dedicados y MVPs, con contratos y pagos en USD."
+    },
+    "hero": {
+      "badge": "Nearshore para EE. UU. · Mismo huso horario",
+      "line1": "Tu equipo",
+      "line2": "de software",
+      "line3": "nearshore,",
+      "line4": "en tu horario.",
+      "desc": "Ingenieros senior en Ecuador, en el mismo huso horario que la costa este de EE. UU. Reuniones dentro de tu jornada, contratos y pagos en USD y comunicación directa en inglés.",
+      "cta_primary": "Agenda una llamada →",
+      "cta_secondary": "Ver casos de éxito"
+    },
+    "why": {
+      "eyebrow": "DevNest para EE. UU.",
+      "title1": "Nearshore de verdad",
+      "title2": "para empresas de EE. UU.",
+      "subtitle": "Trabajamos como un equipo local: misma jornada, misma moneda, mismo idioma de negocio.",
+      "cards": [
+        {
+          "title": "Mismo huso horario",
+          "desc": "Ecuador está en UTC-5 todo el año: el mismo horario que Nueva York en invierno y solo una hora de diferencia en verano. Dailies, revisiones y despliegues en tu jornada."
+        },
+        {
+          "title": "Contratos y pagos en USD",
+          "desc": "Ecuador usa el dólar estadounidense: cotizaciones, contratos y facturas en USD, sin riesgo cambiario."
+        },
+        {
+          "title": "Inglés y español",
+          "desc": "Comunicación fluida en inglés con tus stakeholders y en español con tus equipos hispanohablantes."
+        },
+        {
+          "title": "Ingenieros senior, acceso directo",
+          "desc": "Hablas con quienes escriben el código. Sin account managers, sin juniors escondidos, sin capas de aprobación: decisiones más rápidas y mejores."
+        },
+        {
+          "title": "NDA y propiedad intelectual",
+          "desc": "Firmamos NDA desde el primer contacto y el código y la propiedad intelectual de tu producto son tuyos."
+        },
+        {
+          "title": "Equipo dedicado o proyecto cerrado",
+          "desc": "Sumamos ingenieros a tu equipo o entregamos el producto completo: MVP, SaaS, apps móviles, automatización e IA."
+        }
+      ]
+    }
+  },
+  "europe": {
+    "meta": {
+      "title": "DevNest — Desarrollo de software a medida para empresas en Europa",
+      "description": "Ingenieros senior con horas de trabajo compartidas con Europa, español nativo e inglés, y trabajo conforme al GDPR. Software a medida, equipos dedicados y MVPs."
+    },
+    "hero": {
+      "badge": "Para empresas en Europa · GDPR",
+      "line1": "Software",
+      "line2": "a medida",
+      "line3": "para Europa,",
+      "line4": "sin fricción.",
+      "desc": "Ingenieros senior en Ecuador con 3–4 horas diarias en común con la jornada de Europa central. Español nativo para España, inglés para el resto del continente y trabajo conforme al GDPR.",
+      "cta_primary": "Agenda una llamada →",
+      "cta_secondary": "Ver casos de éxito"
+    },
+    "why": {
+      "eyebrow": "DevNest para Europa",
+      "title1": "Tu socio tecnológico",
+      "title2": "al otro lado del Atlántico.",
+      "subtitle": "Calidad senior, comunicación directa y protección de datos al estándar europeo.",
+      "cards": [
+        {
+          "title": "Horas en común cada día",
+          "desc": "Nuestras mañanas coinciden con tus tardes: 3–4 horas diarias compartidas con Europa central para reuniones y revisiones. Mientras termina tu día, el equipo sigue avanzando."
+        },
+        {
+          "title": "Conforme al GDPR",
+          "desc": "Tratamos los datos de tus usuarios según el GDPR y firmamos un acuerdo de tratamiento de datos (DPA) y un NDA antes de empezar."
+        },
+        {
+          "title": "Español nativo e inglés",
+          "desc": "Sin barreras con equipos en España y comunicación fluida en inglés con el resto de Europa."
+        },
+        {
+          "title": "Presupuestos en EUR o USD",
+          "desc": "Cotizamos en la moneda que prefieras, con alcance y precio claros desde el inicio."
+        },
+        {
+          "title": "Ingenieros senior, acceso directo",
+          "desc": "Hablas con quienes escriben el código. Sin account managers, sin juniors escondidos, sin capas de aprobación: decisiones más rápidas y mejores."
+        },
+        {
+          "title": "Equipo dedicado o proyecto cerrado",
+          "desc": "Sumamos ingenieros a tu equipo o entregamos el producto completo: MVP, SaaS, apps móviles, automatización e IA."
+        }
+      ]
+    }
   },
   "consent": {
     "title": "Tu privacidad",

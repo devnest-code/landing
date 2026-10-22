@@ -13,7 +13,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'DevNest',
-  url: 'https://devnest.io',
+  url: 'https://devnestcode.vercel.app',
   description:
     'Custom software development company specializing in outsourcing, bespoke software, and proprietary digital products.',
   foundingLocation: { '@type': 'Place', name: 'Ecuador' },
@@ -21,7 +21,7 @@ const jsonLd = {
   contactPoint: {
     '@type': 'ContactPoint',
     contactType: 'sales',
-    email: 'hello@devnest.io',
+    email: 'devnest.code@gmail.com',
     availableLanguage: ['English', 'Spanish'],
   },
 }

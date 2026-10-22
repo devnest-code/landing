@@ -21,7 +21,7 @@ export default function Footer() {
 
   const serviceHrefs = ['#services', '#services', '#services', '#services', '#services', '#services']
   const companyHrefs = ['#why', '#cases', '#testi', '#', '#']
-  const contactHrefs = ['#contact', 'mailto:hello@devnest.io', '#', '#']
+  const contactHrefs = ['#contact', 'mailto:devnest.code@gmail.com', '#', '#']
 
   return (
   <>

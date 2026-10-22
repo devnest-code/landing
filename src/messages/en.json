@@ -313,7 +313,7 @@
       "submit": "Send — we'll reply within 24h →",
       "sending": "Sending...",
       "success": "✓ Message sent. We'll be in touch soon.",
-      "error": "Error sending. Please write to us at hello@devnest.io",
+      "error": "Error sending. Please write to us at devnest.code@gmail.com",
       "projectTypes": {
         "custom": "Custom system or software",
         "outsourcing": "Tech team outsourcing",
@@ -342,7 +342,7 @@
     "contact_title": "Contact",
     "services": ["Talent Outsourcing", "Custom Software", "Mobile Apps", "SaaS Products", "Automation", "AI Integration"],
     "company": ["Why DevNest", "Case studies", "Testimonials", "Tech blog", "Work with us"],
-    "contact_links": ["Start your project", "hello@devnest.io", "Schedule a call"],
+    "contact_links": ["Start your project", "devnest.code@gmail.com", "Schedule a call"],
     "legal": "Privacy · Terms · Built with Ecuadorian ☕ for the world",
     "copy": "© {year} DevNest. All rights reserved."
   },
@@ -407,6 +407,102 @@
         "body": "DevNest reserves the right to modify these Terms at any time. Your continued use of the Website following any modifications constitutes your acceptance of the new terms."
       }
     ]
+  },
+  "usa": {
+    "meta": {
+      "title": "DevNest — Nearshore Software Development for US Companies",
+      "description": "Senior engineers in Ecuador, in the same time zone as the US East Coast. Custom software, dedicated teams and MVPs, with contracts and payments in USD."
+    },
+    "hero": {
+      "badge": "Nearshore for the US · Same time zone",
+      "line1": "Your nearshore",
+      "line2": "software team,",
+      "line3": "on your",
+      "line4": "schedule.",
+      "desc": "Senior engineers in Ecuador, in the same time zone as the US East Coast. Meetings during your workday, contracts and payments in USD, and direct communication in English.",
+      "cta_primary": "Book a call →",
+      "cta_secondary": "See case studies"
+    },
+    "why": {
+      "eyebrow": "DevNest for the US",
+      "title1": "Real nearshore",
+      "title2": "for US companies.",
+      "subtitle": "We work like a local team: same hours, same currency, same business language.",
+      "cards": [
+        {
+          "title": "Same time zone",
+          "desc": "Ecuador is on UTC-5 year-round: the same time as New York in winter and just one hour apart in summer. Standups, reviews and releases during your workday."
+        },
+        {
+          "title": "Contracts and payments in USD",
+          "desc": "Ecuador uses the US dollar: quotes, contracts and invoices in USD, with no currency risk."
+        },
+        {
+          "title": "English and Spanish",
+          "desc": "Fluent English with your stakeholders, and Spanish with your Spanish-speaking teams."
+        },
+        {
+          "title": "Senior engineers, direct access",
+          "desc": "You talk to the people writing the code. No account managers, no hidden juniors, no approval layers: faster, better decisions."
+        },
+        {
+          "title": "NDA and IP ownership",
+          "desc": "We sign an NDA from the first conversation, and the code and intellectual property of your product are yours."
+        },
+        {
+          "title": "Dedicated team or fixed-scope project",
+          "desc": "We extend your team with engineers or deliver the whole product: MVPs, SaaS, mobile apps, automation and AI."
+        }
+      ]
+    }
+  },
+  "europe": {
+    "meta": {
+      "title": "DevNest — Custom Software Development for European Companies",
+      "description": "Senior engineers with shared working hours with Europe, native Spanish and English, and GDPR-compliant delivery. Custom software, dedicated teams and MVPs."
+    },
+    "hero": {
+      "badge": "For companies in Europe · GDPR",
+      "line1": "Custom",
+      "line2": "software",
+      "line3": "for Europe,",
+      "line4": "without friction.",
+      "desc": "Senior engineers in Ecuador with 3–4 shared hours a day with the Central European workday. Native Spanish for Spain, English for the rest of the continent, and GDPR-compliant delivery.",
+      "cta_primary": "Book a call →",
+      "cta_secondary": "See case studies"
+    },
+    "why": {
+      "eyebrow": "DevNest for Europe",
+      "title1": "Your technology partner",
+      "title2": "across the Atlantic.",
+      "subtitle": "Senior quality, direct communication and data protection to European standards.",
+      "cards": [
+        {
+          "title": "Shared hours every day",
+          "desc": "Our mornings overlap your afternoons: 3–4 shared hours a day with Central Europe for meetings and reviews. While your day ends, the team keeps shipping."
+        },
+        {
+          "title": "GDPR-compliant",
+          "desc": "We process your users' data under the GDPR and sign a Data Processing Agreement (DPA) and an NDA before we start."
+        },
+        {
+          "title": "Native Spanish and English",
+          "desc": "No barriers with teams in Spain, and fluent English with the rest of Europe."
+        },
+        {
+          "title": "Quotes in EUR or USD",
+          "desc": "We quote in the currency you prefer, with clear scope and pricing from day one."
+        },
+        {
+          "title": "Senior engineers, direct access",
+          "desc": "You talk to the people writing the code. No account managers, no hidden juniors, no approval layers: faster, better decisions."
+        },
+        {
+          "title": "Dedicated team or fixed-scope project",
+          "desc": "We extend your team with engineers or deliver the whole product: MVPs, SaaS, mobile apps, automation and AI."
+        }
+      ]
+    }
   },
   "consent": {
     "title": "Your privacy",

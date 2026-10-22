@@ -18,7 +18,7 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'meta' })
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://devnest.io'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://devnestcode.vercel.app'
 
   return {
     title: t('title'),
@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: {
         es: `${baseUrl}/es`,
         en: `${baseUrl}/en`,
-        'x-default': `${baseUrl}/es`,
+        'x-default': `${baseUrl}/en`,
       },
     },
     robots: { index: true, follow: true },

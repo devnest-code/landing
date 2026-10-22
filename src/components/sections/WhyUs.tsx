@@ -2,8 +2,8 @@
 import { useTranslations } from 'next-intl'
 import { RevealWrapper } from '@/components/ui/RevealWrapper'
 
-export default function WhyUs() {
-  const t = useTranslations('why')
+export default function WhyUs({ ns = 'why' }: { ns?: string }) {
+  const t = useTranslations(ns)
   const cards: { title: string; desc: string }[] = t.raw('cards') as { title: string; desc: string }[]
 
   return (

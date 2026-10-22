@@ -18,6 +18,7 @@ export const contactSchema = z.object({
   ]),
   budget: z.enum(['u5k', '5-15k', '15-50k', '50k+', 'nd']),
   message: z.string().min(10, 'Please describe your project'),
+  source: z.string().max(40).optional(),
 })
 
 export type ContactFormData = z.infer<typeof contactSchema>
