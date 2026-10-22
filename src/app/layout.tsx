@@ -1,7 +1,10 @@
 import type { ReactNode } from 'react'
 import type { Metadata } from 'next'
 import { Barlow_Condensed, DM_Sans } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
+
+const GA_ID = 'G-CS8F96PDJW'
 
 export const metadata: Metadata = {
   verification: { google: 'hyLciLL6OpBKGtgGcSXS-211NtuvyfT2E27Vg5p-qH0' },
@@ -29,6 +32,16 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       </head>
       <body suppressHydrationWarning>
         {children}
+        {/* Google tag (gtag.js) */}
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_ID}');
+          `}
+        </Script>
       </body>
     </html>
   )
